@@ -116,3 +116,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+from decouple import config
+import os
+OPENAI_API_KEY =config("OPENAI_API_KEY", default=None)
