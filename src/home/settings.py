@@ -120,3 +120,4 @@ STATIC_URL = 'static/'
 from decouple import config
 import os
 OPENAI_API_KEY =config("OPENAI_API_KEY", default=None)
+TMDB_API_KEY =config("TMDB_API_KEY", default=None)
