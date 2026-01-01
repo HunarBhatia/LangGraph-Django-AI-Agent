@@ -1,4 +1,17 @@
+# Virtual Environment
+envm/
 env/
 venv/
+ENV/
+
+# Environment variables
 .env
-clear
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
